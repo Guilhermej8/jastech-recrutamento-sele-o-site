@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+jastech.db
+.DS_Store
+.env

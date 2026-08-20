@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: jastech-site
+    runtime: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python server.py"
+    healthCheckPath: "/health"
+    autoDeploy: true
